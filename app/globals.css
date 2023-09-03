@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600&display=swap');
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(38, 120, 221);
+  background: linear-gradient(
+    180deg,
+    rgba(38, 120, 221, 1) 0%,
+    rgba(50, 123, 208, 1) 45%,
+    rgba(112, 158, 227, 1) 100%
+  );
+}
