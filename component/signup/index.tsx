@@ -11,7 +11,7 @@ const SignUP = () => {
                 <div className='w-full flex justify-start'>
                     <h1 className='text-3xl font-medium font-primary m-6'>SIGN UP</h1>
                 </div>
-                <div className='w-full flex justify-center flex-col'>
+                <div className='w-full flex justify-center flex-col' >
                     <TextField id="outlined-basic" label="Outlined" variant="outlined" />
                     <FormControl variant="outlined">
                         <InputLabel htmlFor="outlined-adornment-password">Password</InputLabel>
